@@ -49,3 +49,92 @@ nav span {
 /* main banner */
 
 
+.mainbanner {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainbanner img {
+    width: 60%;
+    margin: 32px 24px;
+    float: left
+}
+
+.learnsomething {
+    justify-content: center;
+    margin-left: 600px;
+    text-align: left;
+    margin-top: 150px;
+}
+
+.learnsomething h3 {
+    font-size: 2.5rem;
+    padding-bottom: 25px
+}
+.learnsomething h4 {
+    font-size: 1.25rem;
+}
+.btn {
+	-moz-box-shadow:inset 0px 3px 0px 0px #5e5e5e;
+	-webkit-box-shadow:inset 0px 3px 0px 0px #5e5e5e;
+	box-shadow:inset 0px 3px 0px 0px #5e5e5e;
+	background-color:#5e5e5e;
+	display:inline-block;
+	cursor:pointer;
+	color:#fffaff;
+	font-family:Verdana;
+	font-size:14px;
+	padding:13px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #525252;
+    margin-top: 25px;
+}
+
+.btn:hover {
+	background-color:#616161;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+/*main content*/
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
