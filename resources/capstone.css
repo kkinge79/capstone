@@ -1,3 +1,30 @@
 .truncated-menu {
     display: none;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    color: black;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.one {
+    color: black;
+}
+.two {
+    color: darkgray
+}
