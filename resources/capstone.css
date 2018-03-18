@@ -3,10 +3,6 @@ html, body {
   margin: 0;
 }
 
-
-
-
-
 .truncated-menu {
     display: none;
 }
@@ -51,6 +47,8 @@ header img {
 nav {
     text-align: right;
     flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 nav span {
@@ -66,6 +64,8 @@ nav span {
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .one {
@@ -96,13 +96,14 @@ nav span {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .mainbanner img {
     width: 60%;
     margin: 32px 24px;
-    float: left
+    float: left;
+    padding-right: 48px;
 }
 
 .learnsomething {
@@ -114,7 +115,10 @@ nav span {
 
 .learnsomething h3 {
     font-size: 2.5rem;
-    padding-bottom: 25px
+    padding-bottom: 25px;
+    font-weight: bold;
+
+    
 }
 .learnsomething h4 {
     font-size: 1.25rem;
@@ -172,6 +176,7 @@ nav span {
 .startlearning {
     background-color: lightgray;
     padding-bottom: 32px;
+    font-family: 'Roboto', sans-serif;
 }
 .grid {
   max-height: 1000px;
@@ -179,11 +184,11 @@ nav span {
   flex-wrap: wrap;
   flex-direction: row;
   padding: 0 72px;
-  vertical-align: top
+  vertical-align: top;
 }
 .grid > div {
   display: flex; 
-  flex-basis: calc(33.33% - 14px);  
+  flex-basis: calc(29.33% - 14px);  
   justify-content: center;
   flex-direction: column;
 }
@@ -192,12 +197,14 @@ nav span {
   display: flex;
   justify-content: center;
   flex-direction: row;
+   padding-bottom: 8px;
+    margin-left: auto;
 }
 
 .startlearning h2 {
     text-align: center;
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 2.2rem;
     padding: 32px 0;
 }
 
@@ -208,11 +215,14 @@ div.item {
     /* To horizontally center images and caption */
     text-align: center;
     /* The width of the container also implies margin around the images. */
-    width: 250px;
-    background-color: white
+    width: 300px;
+    background-color: white;
+    height:300px;
+    margin-bottom: 8px;
+
 }
 .startlearning img {
-    width:  250px;
+    width:  300px;
     height: auto;
     background-color: grey;
 }
@@ -220,18 +230,21 @@ div.item {
     /* Make the caption a block so it occupies its own line. */
     display: block;
     text-align: left;
-    padding: 16px 0 8px 16px
+    padding: 16px 0 8px 16px;
+    font-size: 1.40rem;
 }
 
 .item h4 {
     padding-bottom: 8px;
     text-align: left;
     padding-left: 16px;
+    color: lightgray;
 }
 .item p {
     text-align: left;
     padding-left: 16px;
     padding-bottom: 24px;
+    color: lightgray;
 }
  
 
@@ -260,12 +273,25 @@ div.item {
     padding-top: 100px;
 }
 
+.exhibit h2 {
+     text-align: center;
+     font-weight: bold;
+     font-size: 2.2rem;
+     padding: 32px 0;
+} 
+.section-three {
 
+    width: 40%;
+    margin-top: -100px;
+}
+iframe {
+    padding:0 24px 24px 24px;
+    margin-left: 24px;
+}
 
-
-
-
-
+.section-four {
+    float: right;
+}
 
 
 
