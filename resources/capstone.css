@@ -1,12 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+
+
 .truncated-menu {
     display: none;
 }
 
-.flex-container {
+.flx-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*header */
@@ -46,9 +77,20 @@ nav span {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* main banner */
-
-
 .mainbanner {
     background-color: lightgray;
     display: flex;
@@ -102,10 +144,6 @@ nav span {
 	top:1px;
 }
 
-/*main content*/
-
-
-        
 
 
 
@@ -114,11 +152,113 @@ nav span {
 
 
 
+/*main content 1010101010101010101010101010101010101010101*/
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* start learning */
+.startlearning {
+    background-color: lightgray;
+    padding-bottom: 32px;
+}
+.grid {
+  max-height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 72px;
+  vertical-align: top
+}
+.grid > div {
+  display: flex; 
+  flex-basis: calc(33.33% - 14px);  
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.startlearning h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+    padding: 32px 0;
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 250px;
+    background-color: white
+}
+.startlearning img {
+    width:  250px;
+    height: auto;
+    background-color: grey;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    text-align: left;
+    padding: 16px 0 8px 16px
+}
+
+.item h4 {
+    padding-bottom: 8px;
+    text-align: left;
+    padding-left: 16px;
+}
+.item p {
+    text-align: left;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*thesis exhibit*/
+.section-three iframe {
+    padding-top: 100px;
+}
 
 
 
