@@ -63,13 +63,14 @@ nav span {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
 
 }
 
 .one {
     color: black;
+    font-weight: bold;
 }
 
 .two {
@@ -157,6 +158,94 @@ nav span {
 
 
 /*main content 1010101010101010101010101010101010101010101*/
+.maincontent {
+    display: inline-flex;
+}
+.left img {
+    width: 60%;
+    padding: 32px 24px 32px 0px; 
+}
+.left {
+    display: inline-block;
+    padding-left: 24px;
+    overflow: auto;
+    margin-right: -250px
+    
+}
+.left h2 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 24px;
+}
+.left p {
+    float: left;
+}
+.orientation img {
+    width: 35%;
+    height: auto;
+    float: left: 
+}
+.campus img {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+.guestlecture img{
+    width: 35%;
+    height: auto;
+    float: left;
+    padding-bottom: 50px;
+}
+.orientation {
+    width: 100%;
+    padding: 16px;
+}
+.campus {
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 16px;
+}
+.guestlecture {
+    width: 100%;
+    padding: 16px;
+}
+.orientation h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-bottom: 8px;
+}
+.orientation p {
+    padding-bottom: 8px
+}
+
+.guestlecture h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-bottom: 8px;
+}
+.campus h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-bottom: 8px;
+}
+
+.guestlecture p {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 8px;
+    line-height: 200%;
+}
+.campus p {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 8px;
+    line-height: 200%;
+}
+
+
+
 
 
 
@@ -232,6 +321,7 @@ div.item {
     text-align: left;
     padding: 16px 0 8px 16px;
     font-size: 1.40rem;
+    font-weight: bold;
 }
 
 .item h4 {
@@ -275,9 +365,10 @@ div.item {
 
 .exhibit h2 {
      text-align: center;
-     font-weight: bold;
+     font-weight: bolder;
      font-size: 2.2rem;
      padding: 32px 0;
+     font-family: 'Roboto', sans-serif; 
 } 
 .section-three {
 
@@ -292,6 +383,7 @@ iframe {
 .section-four {
     float: right;
 }
+
 
 
 
